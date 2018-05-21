@@ -27,6 +27,10 @@ th, td {
     padding:10px;
 }
 
+td{
+    vertical-align: top;
+}
+
 #positief{
     background-color: rgba(0, 233, 0, 0.377);
 }
@@ -41,4 +45,10 @@ th, td {
 
 .sitelink{
     margin-top:0px;
+}
+
+/* Scenario`s */
+
+.scenario{
+    margin-bottom:3px;
 }
