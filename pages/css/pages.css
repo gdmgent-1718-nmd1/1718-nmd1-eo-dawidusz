@@ -18,17 +18,30 @@ img {
 /* Voeg jouw css hieraan toe */
 
 /* Concurrentie analyse */
-table, th, td {
+.concurrentieanalise table,{
     border: 3px solid black;
     border-collapse: collapse;
+    margin:0;
 }
 
-th, td {
+.concurrentieanalise th, {
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin:0;
+}
+.concurrentieanalise td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin:0;
+}
+.concurrentieanalise th {
     padding:10px;
 }
 
-td{
+
+.concurrentieanalise td{
     vertical-align: top;
+    padding:10px;
 }
 
 #positief{
@@ -522,4 +535,181 @@ transition:ease-in-out 0.7s;
     .knopsocialmedia:hover{
         background-color:white;
         color:rgb(72, 211, 93); 
-        transition: 0.7s;
+        transition: 0.7s; 
+    }
+.containercalendar{
+    position: relative;
+}
+    .contentkalender{
+        width: 900px;
+        height: fit-content;
+        background-color:white;
+        border: solid 4px rgba(92, 92, 92, 0.85);
+        border-radius: 20px;
+        margin-top:150px;
+    }
+
+
+    .containertabs{
+        display:flex;
+        margin:30px;
+        margin-top: -100px;
+        position: absolute;
+        top:0px;   
+    }
+    
+    
+    .tab{
+        width:200px;
+        height:100px;
+        background-color:rgba(92, 92, 92, 0.85);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;   
+    }
+    
+    .tab:hover{
+        background-color:rgb(72, 211, 93);  
+        height: 120px;
+        margin-top: -20px;
+        transition: 0.2s;
+    }
+    .tabactive{
+        background-color:rgb(72, 211, 93);  
+        height: 120px;
+        margin-top: -20px;
+    }
+    
+    .datum , .dag{
+        text-align: center;
+        margin: auto;
+        color:white;
+    }
+    
+    
+    .datum{
+        padding-top:20px;
+        font-family:"nunito";
+        font-size:26pt;
+        line-height: 20pt;
+    }
+    
+    .dag{
+        margin-top:0;
+        line-height: 7pt;
+        font-family:"nunito";
+        font-size:16pt;  
+        line-height: 20pt;
+        
+    }
+    .datumin , .dagin{
+        text-align: left;
+        margin: auto;
+        margin-left:25px;
+        color:rgba(92, 92, 92, 0.85);
+    }
+    .datumin{
+        padding-top:20px;
+        font-family:"Droid-serif";
+        font-size:36pt;
+    }
+    
+    .dagin{
+        margin-top:0;
+        line-height: 18pt;
+        font-family:"nunito";
+        font-size:16pt;  
+        line-height: 50pt;
+        
+    }
+    .artiesttitel , .artiestgenre , .uur{
+        text-align: left;
+        margin: auto;
+        margin-left:25px;
+        line-height: 30pt;
+    
+    }
+    .artiesttitel{
+        color:rgb(72, 211, 93); 
+        padding-top:20px;
+        font-family:"Droid-serif";
+        font-size:30pt;
+    
+    }
+    
+    .artiestgenre{
+        color:rgba(92, 92, 92, 0.85);
+        margin-top:0;
+        line-height: 16pt;
+        font-family:"nunito";
+        font-size:16pt;  
+        font-weight: 300;
+        line-height: 20pt;
+    }
+    .uur{
+        color:rgb(72, 211, 93); 
+        padding-top:20px;
+        font-family:"Droid-serif";
+        font-size:36pt;
+    }
+    
+    .pages{
+        width: 100%;
+        height: 70px;
+        position: relative;
+        font-family:"nunito";
+        color:rgb(72, 211, 93);
+        font-size:22pt;
+    }
+    
+    .pages .fas{
+        margin-right:10px;
+        margin-left: 10px;
+        font-size:21pt;
+    }
+    .pageleft{
+        position:absolute;
+        left: 110px;
+        bottom: 30px;
+        font-size: 20pt;
+        transition:0.2s;
+    
+    }
+    
+    .pageright{
+        position:absolute;
+        right:110px;
+        bottom:30px;
+        font-size: 20pt;
+        transition:0.2s;
+    }
+    
+    .pagenumber{
+        position: absolute;
+        left:45%;
+        bottom: 30px;
+        
+    }
+    
+    .pageright:hover , .pageleft:hover{
+        cursor: pointer;
+        color:rgba(92, 92, 92, 0.85);
+        transition:0.2s;
+    }
+    
+    #number1 , #number2 , #number3{
+        color:rgba(92, 92, 92, 0.85);
+        font-size:16pt;
+    
+    }
+    
+    #numberactive{
+        color:rgb(72, 211, 93);
+        padding:30px;
+    
+    }
+    
+    .hidden{
+        display:none;
+     }
+    
+   
