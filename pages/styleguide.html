@@ -33,38 +33,43 @@
         </div>
 
     </div>
-    <div style="background-color:rgb(230, 230, 230); padding:20px">
+<div style="background-color:rgb(230, 230, 230); padding:20px; margin-top:5px; width:fit-content;">
     <h3 class="styleguide">Lineup lijst</h3>
     <h4 class="guidetekst">Titel: "Droid serif" 19pt</h4>
     <h4 class="guidetekst">Tekst: "nunito" 12pt</h4>
+    
     <div class="lineup">
         
         <div class="lineupfoto">
             <div id="one" >
-                    <button class="playmusic"><span><i class="fab fa-spotify"></i></span></button>
+                <button class="playmusic"><span><i class="fab fa-spotify"></i></span></button>
                 <div class="balkinfo">
-                <h2 class="styleguide">Showtek</h2>
-                <i class="fas fa-angle-right verderknop"></i>
-                <h3 class="styleguide">Showtek is een house-duo uit Eindhoven,bestaande uit de broers Sjoerd en Wouter Janssen.</h3>
+                    <h2 class="styleguide">Showtek</h2>
+                    <i class="fas fa-angle-right verderknop"></i>
+                    <h3 class="styleguide">Showtek is een house-duo uit Eindhoven,bestaande uit de broers Sjoerd en Wouter Janssen.</h3>
                 </div>
             </div>
         </div>
         <div class="lineupfoto">
-                <div id="two">
-                        <button class="playmusic"><span><i class="fab fa-spotify"></i></span></button>
-                 <div class="balkinfo">
-                <h2 class="styleguide">David Guetta</h2>
-                <i class="fas fa-angle-right verderknop"></i>
-                <h3 class="styleguide">David Guetta, is een Franse dj en dance-pop-producent (vroeger housemuziek)</h3>
-                    </div>
+            <div id="two">
+                    <button class="playmusic"><span><i class="fab fa-spotify"></i></span></button>
+                <div class="balkinfo">
+                    <h2 class="styleguide">David Guetta</h2>
+                    <i class="fas fa-angle-right verderknop"></i>
+                    <h3 class="styleguide">David Guetta, is een Franse dj en dance-pop-producent (vroeger housemuziek)</h3>
+                </div>
             </div>
         </div>
     </div>
-    </div>
-    <div class="tickets">
-            <h3 class="styleguide">Lineup lijst</h3>
+</div>
+<div class="containertickets">    
+    <div class="containercheckbox">
+        <div class="tickets">
+            <h3 class="styleguide">Tickets bestel</h3>
             <h4 class="guidetekst">Titel: "Droid serif" 42pt</h4>
             <h4 class="guidetekst">Tekst bij de checkbox: "nunito" 16pt</h4>
+            <h4 class="guidetekst">"Prijs" en "Aantal tickets": "Droid serif" 28pt</h4>
+            <h4 class="guidetekst"> Cijfers: "nunito" 28pt</h4>
             <h2 class="titeltickets">Tickets: (€120)</h2>
         <label class="container">Kampeerplaats (+€20)
             <input type="checkbox">
@@ -82,6 +87,48 @@
                 <input type="checkbox">
                 <span class="checkmark"></span>
         </label>
+        </div>
+    </div> 
+        <div class="ticketprijs">
+            <span class="titelaantalt">Prijs:</span>
+            <div>
+                <span class="stijlcijfert">€</span>   
+            </div>
+                <div class="flexrow">
+                    <span class="titelaantalt">Aantal tickets:</span><span class="stijlcijfert" id="ticketsnumber">2</span><div class="arrows"><i class="fas fa-angle-up" id="arrowup"></i><i class="fas fa-angle-down" id="arrowdown"></i>
+                </div>
+            </div>
+            <button class="bestelnu"><span></span></button>
+        </div>
+</div> 
+<div class="containerfooter">
+    <div class="footerbalk">
+        <div class="tekstcontainer">
+            <h4>Navigatie</h4>
+            <h5>Home</h5>
+            <h5>Tickets</h5>
+            <h5>Kalender</h5>
+            <h5>Line up</h5>
+        </div>
+        <div class="tekstcontainer">
+            <h4>Info</h4>
+            <h5>Algemeen</h5>
+            <h5>Camping</h5>
+            <h5>Parking</h5>
+            <h5>Ligging</h5>
+        </div>
+        <div class="socialmediacontainer">
+            <h4>Social media</h4>
+            <div class="knoppengrid">
+                <button class="knopsocialmedia"><span><i class="fab fa-facebook"></i></span></button>
+                <button class="knopsocialmedia"><span><i class="fab fa-twitter"></i></span></button>
+                <button class="knopsocialmedia"><span><i class="fab fa-spotify"></i></span></button>
+                <button class="knopsocialmedia"><span><i class="fab fa-instagram"></i></span></button>
+            </div>
+        </div>
     </div>
+</div>
+
+
 </body>
 </html>
