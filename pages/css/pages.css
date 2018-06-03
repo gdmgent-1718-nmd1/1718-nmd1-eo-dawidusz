@@ -52,3 +52,314 @@ td{
 .scenario{
     margin-bottom:3px;
 }
+
+/* Digital styleguide*/
+
+.styleguide{
+    font-family: "droid-serif",serif;
+    font-weight: 600;
+}
+
+.containerkleuren {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:rgb(230, 230, 230);
+}
+
+.containerkleuren ul {
+    padding:30px;
+    margin:auto;
+    list-style: none;
+
+}
+.kleur{
+    width:100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.kleurgroen { 
+    background-color: rgb(72, 211, 93);   
+}
+
+.kleurgrijs {
+    background-color: rgb(92, 92, 92);
+}
+
+.kleurwit {
+    background-color: rgb(255, 255, 255);
+}
+.containertekst {
+    width: fit-content;
+    background-color:rgb(230, 230, 230);
+    padding:30px;
+    padding-top:10px;
+}
+
+.homepagetitel{
+    font-family: "droid-serif",serif;
+    font-size: 70pt;
+    line-height: 70px;
+    color:white;
+    bottom:30px;
+    text-align: right;
+
+}
+
+.homepageondertitel{
+    font-family: "droid-serif",serif;
+    font-size: 30pt;
+    line-height: 50px;
+    color:white;
+    text-align: right;
+    
+}
+ .homebackground{
+    padding: 30px;
+    background-image: url(../images/krists-luhaers-582238-unsplash.jpg);
+    background-size: 100%;
+    height: 300px;
+    width:750px;
+    position:relative;
+ }
+
+ .knophomepage{
+    padding: 20px;
+    color:white;
+    background-color:rgba(0, 0, 0, 0);
+    border: solid 2px white;
+    border-radius:28px;
+    font-family: "nunito",sans-serif, "Font Awesome 5 Free";
+    font-size: 20pt;
+    right: 30px;
+    transition: 0.7s;
+    position:absolute;
+    bottom: 90px;
+
+ }
+ .knophomepage:before{
+    font-weight: 900;
+    content: "Ontdek nu! \f105";
+    transition: 0.7s;
+    
+ }
+
+ .knophomepage:hover{
+     font-weight: 800;
+     border: solid 4px white;
+     transition: 0.7s;
+ }
+ .knophomepage:hover:before{
+    content:"ONTDEK NU";
+    transition: 0.7s;
+ }
+
+
+ .fa-angle-right{
+     margin-left:5px;
+     margin-right:5px;
+ }
+ .guidetekst{
+    line-height: 3px;
+    font-family: "nunito",sans-serif;
+    font-weight: 400;
+}
+
+.lineup{
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(230, 230, 230);
+    padding:30px;
+    padding-top:10px;
+}
+
+.lineupfoto{
+    width:400px;
+    height:250px;
+    position:relative; 
+}
+
+
+
+#one {
+    background-image: url(../images/Showtek.jpg);
+    background-size: 100%;
+    width:400px;
+    height:250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#one:hover{
+background-size: 120%;
+transition:ease-in-out 0.7s;
+
+}
+
+#two {
+    background-image: url(../images/DavidGuetta.jpg);
+    background-size: 120%;
+    width:400px;
+    height:250px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#two:hover{
+    background-size: 150%;
+    transition:ease-in-out 0.7s;
+}
+
+.balkinfo{
+    background-color:rgba(92, 92, 92, 0.85);
+    width:100%;
+    height:100px;
+    position: absolute;
+    bottom:0;
+    color: rgb(72, 211, 93);  
+}
+
+.balkinfo h2 {
+    margin-left: 20px;
+    margin-bottom:0px;
+    font-size: 19pt;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.balkinfo h2:hover{
+    color:white;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+.balkinfo h3 {
+    font-family: 'nunito',sans-serif;
+    font-weight: 300;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:0px;
+    font-size:12pt;
+    line-height: 17pt;
+    color:white;
+}
+
+.verderknop{
+    position: absolute;
+    font-size: 2rem;
+    right: 20px;
+    bottom: 52px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.verderknop:hover{
+    color:white;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.playmusic{
+    width:fit-content;
+    height: fit-content;
+    background-color: rgb(72, 211, 93);   
+    padding:10px 15px 10px 15px;
+    margin:0;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right:10px;
+    top:10px;
+    color:white;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.playmusic:hover{
+    background-color:white;
+    color:rgb(72, 211, 93); 
+    transition: 0.7s;
+}
+
+/*checkbox (met hulp van w3school)*/
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16pt;
+    color:rgb(92, 92, 92);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 7px;
+    background-color: rgb(72, 211, 93);
+}
+
+.container:hover input ~ .checkmark {
+    background-color: rgb(92, 92, 92);
+    
+}
+
+.container input:checked ~ .checkmark {
+    background-color: rgb(92, 92, 92);
+
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid rgb(72, 211, 93);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    }
+
+    /**/
+
+    .tickets{
+        width: fit-content;
+        background-color:rgb(230, 230, 230);
+        padding:30px;
+        padding-top:10px;
+    }
+
+    .titeltickets{
+        font-size:42pt;
+        font-family: "droid-serif";
+        font-weight: 800;
+    }

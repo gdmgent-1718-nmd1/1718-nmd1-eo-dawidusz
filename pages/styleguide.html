@@ -7,8 +7,81 @@
     <title>Digital Styleguide - Eindopdracht NMD-I</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bjv6mtg.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+
 </head>
 <body>
     <h1>Digital Styleguide</h1>
+    <h2 class="styleguide">Kleuren</h2>
+    <div class="containerkleuren">
+    <ul><li><div class="kleur kleurgroen"></div></li><li>hex #48d35d</li> <li>rgb (72, 211, 93)</li> <li>hsl (129, 61%, 55%)</li></ul>
+        <ul><li><div class="kleur kleurgrijs"></div></li><li>hex #5c5c5c</li> <li>rgb (92, 92, 92)</li> <li>hsl (0, 0%, 36%)</li></ul>
+        <ul><li><div class="kleur kleurwit"></div></li><li>hex #ffffff</li> <li>rgb (255, 255, 255)</li> <li>hsl (0, 0%, 100%)</li></ul>
+    </div>
+    <h2 class="styleguide">Tekst en knoppen</h2>
+    <div class="containertekst">
+        <h3 class="styleguide">Homepage tiles</h3>
+        <h4 class="guidetekst">Titel: "Droid serif" 70pt</h4>
+        <h4 class="guidetekst">Ondertitel: "Droid serif" 30pt</h4>
+        <h4 class="guidetekst">Knop: "nunito" 20pt</h4>
+        <div class="homebackground">
+        <div class="homepagetitel">Dit is de titel</div>
+        <div class="homepageondertitel">Dit is de ondertitel</div>
+        <button class="knophomepage"><span></span></button>
+        </div>
+
+    </div>
+    <div style="background-color:rgb(230, 230, 230); padding:20px">
+    <h3 class="styleguide">Lineup lijst</h3>
+    <h4 class="guidetekst">Titel: "Droid serif" 19pt</h4>
+    <h4 class="guidetekst">Tekst: "nunito" 12pt</h4>
+    <div class="lineup">
+        
+        <div class="lineupfoto">
+            <div id="one" >
+                    <button class="playmusic"><span><i class="fab fa-spotify"></i></span></button>
+                <div class="balkinfo">
+                <h2 class="styleguide">Showtek</h2>
+                <i class="fas fa-angle-right verderknop"></i>
+                <h3 class="styleguide">Showtek is een house-duo uit Eindhoven,bestaande uit de broers Sjoerd en Wouter Janssen.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="lineupfoto">
+                <div id="two">
+                        <button class="playmusic"><span><i class="fab fa-spotify"></i></span></button>
+                 <div class="balkinfo">
+                <h2 class="styleguide">David Guetta</h2>
+                <i class="fas fa-angle-right verderknop"></i>
+                <h3 class="styleguide">David Guetta, is een Franse dj en dance-pop-producent (vroeger housemuziek)</h3>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="tickets">
+            <h3 class="styleguide">Lineup lijst</h3>
+            <h4 class="guidetekst">Titel: "Droid serif" 42pt</h4>
+            <h4 class="guidetekst">Tekst bij de checkbox: "nunito" 16pt</h4>
+            <h2 class="titeltickets">Tickets: (€120)</h2>
+        <label class="container">Kampeerplaats (+€20)
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Ondergrondse parking (+€15)
+                <input type="checkbox">
+                <span class="checkmark"></span>
+        </label>
+        <label class="container">T-shirt met ticket QR code (+€20)
+                <input type="checkbox">
+                <span class="checkmark"></span>
+        </label>
+        <label class="container">Tijdelijk QR code tattoo (+€10)
+                <input type="checkbox">
+                <span class="checkmark"></span>
+        </label>
+    </div>
 </body>
 </html>
